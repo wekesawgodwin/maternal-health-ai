@@ -32,6 +32,7 @@ Maternal and neonatal mortality remains a critical challenge in Kenya, particula
 1. **Risk Stratification:** Identifying high-risk mothers before delivery.
 2. **Cohort Profiling:** Grouping patients into socio-demographic archetypes for targeted public health resource allocation.
 3. **Actionable Pathways:** A Hybrid Recommender System suggesting the exact clinical intervention based on Kenya MoH guidelines and historical cohort success.
+[]
 
 ---
 ##  How to Use This Project (From Installation to Dashboard)
@@ -52,10 +53,13 @@ python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On macOS/Linux:
-source venv/bin/activate
+source venv/bin/activate ```
 
 ---
+## 🌍 Data Source
+https://datadryad.org/downloads/file_stream/402592
 
+---
 ## 🏗️ System Architecture & ML Pipeline
 
 ### 1. Domain-Driven Feature Engineering
