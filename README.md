@@ -34,6 +34,27 @@ Maternal and neonatal mortality remains a critical challenge in Kenya, particula
 3. **Actionable Pathways:** A Hybrid Recommender System suggesting the exact clinical intervention based on Kenya MoH guidelines and historical cohort success.
 
 ---
+##  How to Use This Project (From Installation to Dashboard)
+
+Follow these steps to set up the environment, train the models, and launch the interactive Clinical Decision Support System.
+### Clone the Repository & Setup Environment
+Open your terminal or command prompt and run the following commands:
+
+```bash
+# Clone the repository
+git clone git@github.com:wekesawgodwin/maternal-health-ai.git
+cd maternal-health-ai
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+---
 
 ## 🏗️ System Architecture & ML Pipeline
 
@@ -94,7 +115,7 @@ We built a dual-tab Streamlit application designed for low-bandwidth rural envir
 *   **Tab 2: Model Evaluation & Deployment**  
     A data-driven view for Medical Directors showing real-time model safety metrics, confusion matrices, and deployment readiness checklists.
 
-*(Add your dashboard screenshots here! E.g., `![Dashboard Screenshot](figures/dashboard_screenshot.png)`)*
+
 
 ---
 
