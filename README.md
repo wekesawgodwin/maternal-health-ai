@@ -87,7 +87,7 @@ In healthcare, Accuracy is a misleading metric due to severe class imbalance (ad
 ### 🏆 Core Metrics
 | Metric | Score | Clinical Meaning |
 | :--- | :--- | :--- |
-| **Recall (Sensitivity)** | **> 85%** | Out of all actual dying mothers/stillbirths, how many did the AI catch? |
+| **Recall (Sensitivity)** | **> 85%** | Out of all actual dying mothers/stillbirths, how many did the model catch? |
 | **PR-AUC** | **> 0.30** | Proves the model isn't just guessing "Low Risk" for everyone. |
 | **Calibration (Brier)**| **< 0.05** | Ensures nurse trust. If AI says "80% Risk", it must actually be 80%. |
 
