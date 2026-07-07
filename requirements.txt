@@ -1,0 +1,29 @@
+# ==========================================
+# Core Data Manipulation & Excel Support
+# ==========================================
+pandas
+numpy
+openpyxl       # Required for pandas to read .xlsx files
+
+# ==========================================
+# Machine Learning & Modeling
+# ==========================================
+scikit-learn   # For preprocessing, KNN segmentation, and metrics
+xgboost       # For the primary predictive risk model
+joblib         # For saving and loading model artifacts (.pkl)
+
+# ==========================================
+# Explainable AI (XAI)
+# ==========================================
+shap          # For SHAP value calculations and waterfall plots
+
+# ==========================================
+# Data Visualization & EDA
+# ==========================================
+matplotlib
+seaborn
+
+# ==========================================
+# Dashboard & Deployment
+# ==========================================
+streamlit     # For the Clinical Decision Support System UI
