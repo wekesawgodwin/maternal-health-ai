@@ -81,7 +81,10 @@ class MaternalSegmenter:
             raise ValueError("Segmenter must be fitted before predicting.")
 
         X = df[self.feature_cols].copy()
-        X_scaled = self.scaler.transform(X)
+        # .values: the scaler was fit on a plain ndarray of centroids (no feature
+        # names), so passing a DataFrame here triggers a harmless-but-noisy
+        # sklearn "fitted without feature names" warning. Strip the names.
+        X_scaled = self.scaler.transform(X.values)
 
         distances, indices = self.knn.kneighbors(X_scaled)
 
