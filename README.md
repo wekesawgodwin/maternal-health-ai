@@ -126,9 +126,9 @@ We built a dual-tab Streamlit application designed for low-bandwidth rural envir
 ## Training and evaluating the models locally
 
 *   **Training**  
-    ``python src/train.py
+    `python src/train.py`
 *   **Evaluation**  
-     ``python src/evaluate.py
+     `python src/evaluate.py`
 
 
 
