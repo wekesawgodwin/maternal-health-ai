@@ -42,18 +42,18 @@ Follow these steps to set up the environment, train the models, and launch the i
 Open your terminal or command prompt and run the following commands:
 
 bash
-# Clone the repository
-git clone git@github.com:wekesawgodwin/maternal-health-ai.git
-cd maternal-health-ai
+#### Clone the repository
+`git clone git@github.com:wekesawgodwin/maternal-health-ai.git`
+`cd maternal-health-ai`
 
-# Create a virtual environment
-python -m venv venv
+#### Create a virtual environment
+`python -m venv venv`
 
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
+#### Activate the virtual environment
+##### On Windows:
+`venv\Scripts\activate`
+##### On macOS/Linux:
+`source venv/bin/activate`
 
 ---
 ## 🌍 Data Source
