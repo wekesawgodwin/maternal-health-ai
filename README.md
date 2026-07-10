@@ -32,9 +32,34 @@ Maternal and neonatal mortality remains a critical challenge in Kenya, particula
 1. **Risk Stratification:** Identifying high-risk mothers before delivery.
 2. **Cohort Profiling:** Grouping patients into socio-demographic archetypes for targeted public health resource allocation.
 3. **Actionable Pathways:** A Hybrid Recommender System suggesting the exact clinical intervention based on Kenya MoH guidelines and historical cohort success.
+[]
 
 ---
+##  How to Use This Project (From Installation to Dashboard)
 
+Follow these steps to set up the environment, train the models, and launch the interactive Clinical Decision Support System.
+### Clone the Repository & Setup Environment
+Open your terminal or command prompt and run the following commands:
+
+bash
+# Clone the repository
+git clone git@github.com:wekesawgodwin/maternal-health-ai.git
+cd maternal-health-ai
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+---
+## 🌍 Data Source
+https://datadryad.org/downloads/file_stream/402592
+
+---
 ## 🏗️ System Architecture & ML Pipeline
 
 ### 1. Domain-Driven Feature Engineering
@@ -62,7 +87,7 @@ In healthcare, Accuracy is a misleading metric due to severe class imbalance (ad
 ### 🏆 Core Metrics
 | Metric | Score | Clinical Meaning |
 | :--- | :--- | :--- |
-| **Recall (Sensitivity)** | **> 85%** | Out of all actual dying mothers/stillbirths, how many did the AI catch? |
+| **Recall (Sensitivity)** | **> 85%** | Out of all actual dying mothers/stillbirths, how many did the model catch? |
 | **PR-AUC** | **> 0.30** | Proves the model isn't just guessing "Low Risk" for everyone. |
 | **Calibration (Brier)**| **< 0.05** | Ensures nurse trust. If AI says "80% Risk", it must actually be 80%. |
 
@@ -94,7 +119,7 @@ We built a dual-tab Streamlit application designed for low-bandwidth rural envir
 *   **Tab 2: Model Evaluation & Deployment**  
     A data-driven view for Medical Directors showing real-time model safety metrics, confusion matrices, and deployment readiness checklists.
 
-*(Add your dashboard screenshots here! E.g., `![Dashboard Screenshot](figures/dashboard_screenshot.png)`)*
+
 
 ---
 
