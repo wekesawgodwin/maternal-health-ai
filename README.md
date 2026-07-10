@@ -19,7 +19,7 @@
 | **Ibrahim Ochieng** | Data Cleanining |
 | **Mohamed Abdulahi** | Data Engineer  |
 | **Elvis Ng'anga** | Clinical UI/UX (Streamlit) |
-| **Trevor Imbayi** | Domain Evaluation |
+| **Trevor Amayi** | Domain Evaluation |
 | **RN Chepkoech** | Domain Expert |
 
 ---
